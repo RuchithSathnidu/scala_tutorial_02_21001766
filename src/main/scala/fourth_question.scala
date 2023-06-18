@@ -13,7 +13,7 @@ object fourth_question {
 
        println()
        println("when the ticket price is " + (price-1) + " the owner can get the highest profit and the highest profit is " + max)
-       println("And in that case " + attendance(price-1) +" people attend a performance")
+       println("And in that case " + attendance(price-1) + " people attend a performance")
      }
 
      def attendance (price:Double):Double = {
